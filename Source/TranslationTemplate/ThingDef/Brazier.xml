@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: blood-brazier -->
+  <GS_Brazier.label>blood-brazier</GS_Brazier.label>
+  <!-- EN: A bowl-shaped furnishing used to hold fire. Produces red light over a large area. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. -->
+  <GS_Brazier.description>A bowl-shaped furnishing used to hold fire. Produces red light over a large area. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene.</GS_Brazier.description>
+  <!-- EN: holy-brazier -->
+  <GS_Holy_Brazier.label>holy-brazier</GS_Holy_Brazier.label>
+  <!-- EN: A bowl-shaped furnishing used to hold fire. Produces white light over a large area. The holy glow is particularly pleasing to individuals with the angelic halo gene. -->
+  <GS_Holy_Brazier.description>A bowl-shaped furnishing used to hold fire. Produces white light over a large area. The holy glow is particularly pleasing to individuals with the angelic halo gene.</GS_Holy_Brazier.description>
+  <!-- EN: tox-brazier -->
+  <GS_Tox_Brazier.label>tox-brazier</GS_Tox_Brazier.label>
+  <!-- EN: A bowl-shaped furnishing used to hold fire. Produces green light over a large area. The sickly glow is particularly pleasing to individuals with the pollution stimulus gene. -->
+  <GS_Tox_Brazier.description>A bowl-shaped furnishing used to hold fire. Produces green light over a large area. The sickly glow is particularly pleasing to individuals with the pollution stimulus gene.</GS_Tox_Brazier.description>
+</LanguageData>

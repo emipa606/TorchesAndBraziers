@@ -1,0 +1,4 @@
+# Changelog for TorchesAndBraziers
+
+1.6.0 - First publish
+

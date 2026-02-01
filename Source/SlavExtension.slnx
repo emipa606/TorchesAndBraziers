@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="SlavExtension/SlavExtension.csproj" Type="1aab5d6a-8367-4537-9caa-0f98fe56e047" />
+</Solution>

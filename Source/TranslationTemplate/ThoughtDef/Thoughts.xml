@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: blood brazier -->
+  <GS_BrazierThought.stages.blood_brazier.label>blood brazier</GS_BrazierThought.stages.blood_brazier.label>
+  <!-- EN: No flame burns as softly as a blood flame. -->
+  <GS_BrazierThought.stages.blood_brazier.description>No flame burns as softly as a blood flame.</GS_BrazierThought.stages.blood_brazier.description>
+  <!-- EN: holy brazier -->
+  <GS_BrazierThoughtHoly.stages.holy_brazier.label>holy brazier</GS_BrazierThoughtHoly.stages.holy_brazier.label>
+  <!-- EN: No flame burns as righteous as a holy flame. -->
+  <GS_BrazierThoughtHoly.stages.holy_brazier.description>No flame burns as righteous as a holy flame.</GS_BrazierThoughtHoly.stages.holy_brazier.description>
+  <!-- EN: tox brazier -->
+  <GS_BrazierThoughtTox.stages.tox_brazier.label>tox brazier</GS_BrazierThoughtTox.stages.tox_brazier.label>
+  <!-- EN: No flame burns as vibrant as a tox flame. -->
+  <GS_BrazierThoughtTox.stages.tox_brazier.description>No flame burns as vibrant as a tox flame.</GS_BrazierThoughtTox.stages.tox_brazier.description>
+  <!-- EN: blood torch -->
+  <GS_TorchThought.stages.blood_torch.label>blood torch</GS_TorchThought.stages.blood_torch.label>
+  <!-- EN: No flame burns as softly as a blood flame. -->
+  <GS_TorchThought.stages.blood_torch.description>No flame burns as softly as a blood flame.</GS_TorchThought.stages.blood_torch.description>
+  <!-- EN: holy torch -->
+  <GS_TorchThoughtHoly.stages.holy_torch.label>holy torch</GS_TorchThoughtHoly.stages.holy_torch.label>
+  <!-- EN: No flame burns as righteous as a holy flame. -->
+  <GS_TorchThoughtHoly.stages.holy_torch.description>No flame burns as righteous as a holy flame.</GS_TorchThoughtHoly.stages.holy_torch.description>
+  <!-- EN: Tox torch -->
+  <GS_TorchThoughtTox.stages.Tox_torch.label>Tox torch</GS_TorchThoughtTox.stages.Tox_torch.label>
+  <!-- EN: No flame burns as vibrant as a tox flame. -->
+  <GS_TorchThoughtTox.stages.Tox_torch.description>No flame burns as vibrant as a tox flame.</GS_TorchThoughtTox.stages.Tox_torch.description>
+</LanguageData>
