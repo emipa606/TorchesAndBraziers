@@ -78,7 +78,7 @@
       </li>
     </stages>
     <modExtensions>
-      <li MayRequire="Ludeon.RimWorld.Royalty" Class="VanillaFurnitureExpanded.ThoughtGiverByProximityDefExtension">
+      <li MayRequire="Sov.ElseudPathf" Class="VanillaFurnitureExpanded.ThoughtGiverByProximityDefExtension">
         <ThingToGiveThought>GS_Holy_Brazier</ThingToGiveThought>
         <DistanceToGiveThought>15</DistanceToGiveThought>
       </li>

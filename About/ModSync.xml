@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>cb61c6f8-b091-4c82-aec7-35a7d29a1272</ID>
   <ModName>Torches and Braziers (Continued)</ModName>
-  <Version>1.6.0</Version>
+  <Version>1.6.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,7 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
 

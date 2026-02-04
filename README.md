@@ -1,4 +1,4 @@
-# [Torches and Braziers (Continued)]()
+# [Torches and Braziers (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3658303543)
 
 ![Image](https://img.litet.net/logos/Info.png)
 
@@ -28,19 +28,19 @@ If you have more suggestions,feel free to leave a comment.
 
 **Royalty** activates the royal brazier ingame
 
-**Biotech** for the Blood&amp;Tox variant.
+**Biotech** for the Blood and Tox variant.
 
-[ Lag Free Torches and More ](https://steamcommunity.com/sharedfiles/filedetails/?id=2863526335&amp;searchtext=Torch+lag)  * My mod doesn't need fuel by default.It's not needed but compatible nontheless* 
+[ Lag Free Torches and More ](https://steamcommunity.com/sharedfiles/filedetails/?id=2863526335)  * My mod doesn't need fuel by default.It's not needed but compatible nonetheless* 
 
 [ Nephilim Xenotype
- ](https://steamcommunity.com/sharedfiles/filedetails/?id=2997308585)  * unlocks the holy flame* 
+ ](https://steamcommunity.com/sharedfiles/filedetails/?id=3542508261)  * unlocks the holy flame* 
 
 [ Vanilla Expanded Framework
 ](https://steamcommunity.com/workshop/filedetails/?id=2023507013)  * gives each torch and brazier an additional moodbuff depending on gene.* 
 
-[ Vanilla Factions Expanded - Empire ](https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380&amp;searchtext=Vanilla+Factions+Expanded+-+Empire)  * the brazier are compatible with custom royalty titles.* 
+[ Vanilla Factions Expanded - Empire ](https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380)  * the brazier are compatible with custom royalty titles.* 
 
-[ Vanilla Races Expanded - Waster](https://steamcommunity.com/sharedfiles/filedetails/?id=2983471725&amp;searchtext=waster)  * gets the mood buff* 
+[ Vanilla Races Expanded - Waster](https://steamcommunity.com/sharedfiles/filedetails/?id=2983471725)  * gets the mood buff* 
 
 [ Vanilla Races Expanded - Sanguophage
 ](https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383)  * gets the mood buff* 
@@ -63,4 +63,6 @@ Sl4vP0weR C#
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/TorchesAndBraziers?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3658303543) | tags: light sources

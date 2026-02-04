@@ -98,7 +98,7 @@
       </li>
     </stages>
     <modExtensions>
-      <li MayRequire="Ludeon.RimWorld.Royalty" Class="VEF.Buildings.ThoughtGiverByProximityDefExtension">
+      <li MayRequire="Sov.Nephilim" Class="VEF.Buildings.ThoughtGiverByProximityDefExtension">
         <ThingToGiveThought>GS_Holy_Brazier</ThingToGiveThought>
         <DistanceToGiveThought>15</DistanceToGiveThought>
       </li>
@@ -118,7 +118,7 @@
       </li>
     </stages>
     <modExtensions>
-      <li MayRequire="Ludeon.RimWorld.Royalty" Class="VEF.Buildings.ThoughtGiverByProximityDefExtension">
+      <li MayRequire="Sov.Nephilim" Class="VEF.Buildings.ThoughtGiverByProximityDefExtension">
         <ThingToGiveThought>GS_Holy_Brazier</ThingToGiveThought>
         <DistanceToGiveThought>15</DistanceToGiveThought>
       </li>

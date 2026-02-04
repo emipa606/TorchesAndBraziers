@@ -42,19 +42,19 @@ If you have more suggestions,feel free to leave a comment.
 
 [b]Royalty[/b] activates the royal brazier ingame
 
-[b]Biotech[/b] for the Blood&amp;amp;Tox variant.
+[b]Biotech[/b] for the Blood and Tox variant.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863526335&amp;amp;searchtext=Torch+lag] Lag Free Torches and More [/url]  [i] My mod doesn't need fuel by default.It's not needed but compatible nontheless[/i] 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2863526335] Lag Free Torches and More [/url]  [i] My mod doesn't need fuel by default.It's not needed but compatible nonetheless[/i] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2997308585] Nephilim Xenotype
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3542508261] Nephilim Xenotype
  [/url]  [i] unlocks the holy flame[/i] 
 
 [url=https://steamcommunity.com/workshop/filedetails/?id=2023507013] Vanilla Expanded Framework
 [/url]  [i] gives each torch and brazier an additional moodbuff depending on gene.[/i] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380&amp;amp;searchtext=Vanilla+Factions+Expanded+-+Empire] Vanilla Factions Expanded - Empire [/url]  [i] the brazier are compatible with custom royalty titles.[/i] 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380] Vanilla Factions Expanded - Empire [/url]  [i] the brazier are compatible with custom royalty titles.[/i] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2983471725&amp;amp;searchtext=waster] Vanilla Races Expanded - Waster[/url]  [i] gets the mood buff[/i] 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2983471725] Vanilla Races Expanded - Waster[/url]  [i] gets the mood buff[/i] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383] Vanilla Races Expanded - Sanguophage
 [/url]  [i] gets the mood buff[/i] 
@@ -73,6 +73,8 @@ Sl4vP0weR C#
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3658303543][img]https://img.shields.io/github/v/release/emipa606/TorchesAndBraziers?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: light sources</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
