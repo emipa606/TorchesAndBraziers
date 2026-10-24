@@ -65,4 +65,4 @@ Sl4vP0weR C#
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/TorchesAndBraziers?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3658303543) | tags: light sources
+[![Image](https://img.shields.io/github/v/release/emipa606/TorchesAndBraziers?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3658303543) | light sources

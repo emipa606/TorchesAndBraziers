@@ -6,4 +6,13 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="SlavExtension/SlavExtension.csproj" Type="1aab5d6a-8367-4537-9caa-0f98fe56e047" />
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/Designators.xml" />
+    <File Path="../1.7/Defs/Thoughts.xml" />
+    <File Path="../1.7/Defs/TorchBase.xml" />
+    <File Path="../1.7/Defs/TorchNew.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

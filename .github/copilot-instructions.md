@@ -1,44 +1,62 @@
 # GitHub Copilot Instructions for Torches and Braziers (Continued)
 
 ## Mod Overview and Purpose
-
-**Torches and Braziers (Continued)** is a mod for RimWorld that expands the game's lighting options by adding various torches and braziers. It enhances the aesthetic and functional aspects of lighting depending on other active mods. The mod aims to provide players with diverse options for illuminating their colonies while integrating seamlessly with other popular RimWorld mods.
+Torches and Braziers (Continued) is an update and continuation of the Sovereign,Elseuds mod for RimWorld. The mod adds various torches and braziers that are dependent on active mods. It introduces three different kinds of fires and integrates with several other mods for additional functionality.
 
 ## Key Features and Systems
-
-- **Multiple Fire Variants**: The mod introduces three different types of fires, each catering to different gameplay or thematic needs. 
-- **Mod Integrations**:
-  - **Royalty DLC**: Introduces a Royal Brazier for enhancing the royal gameplay experience.
-  - **Biotech DLC**: Adds the Blood & Tox variant for a thematic complement to biotech-themed gameplay.
-  - **Nephilim Xenotype**: Unlocks a unique "Holy Flame" variant for players using this xenotype.
-- **Lag-Free Implementation**: Torches and braziers do not require fuel by default, ensuring minimal performance impact.
-- **Mood Buff Mechanics**: Integrated with the Vanilla Expanded Framework, the mod provides mood buffs based on the colonists' genes, with specific interactions for:
-  - **Vanilla Factions Expanded - Empire**
-  - **Vanilla Races Expanded - Waster**
-  - **Vanilla Races Expanded - Sanguophage**
+- **Royal Braziers**: Activated by the Royalty mod, providing a unique brazier.
+- **Biotech Variants**: Adds Blood and Tox variant braziers with Biotech mod.
+- **Lag-Free Torches**: Torches that do not require fuel by default but are compatible with fuel.
+- **Nephilim Xenotype**: Unlocks the holy flame.
+- **Vanilla Expanded Framework**: Adds mood buffs based on genes.
+- **Vanilla Factions Expanded - Empire**: Makes braziers compatible with custom royalty titles.
+- **Vanilla Races Expanded - Waster**: Provides mood buff.
+- **Vanilla Races Expanded - Sanguophage**: Provides mood buff.
 
 ## Coding Patterns and Conventions
+- **C# Files**: Two C# files are included in the mod.
+  - `CompSanguophageMeetingFire.cs`: Contains the `CompSanguophageMeetingFire` class with members such as `Building`, `CompPreventClaimingBy`, `PostDraw`, and `Props`.
+  - `CompProperties_SanguophageMeetingFire.cs`: Contains the `CompProperties_SanguophageMeetingFire` class.
 
-- **Class Naming**: Employs descriptive nouns that reflect the function or purpose of the class, such as `CompProperties_SanguophageMeetingFire` and `CompSanguophageMeetingFire`.
-- **Method Structure**: Methods within these classes adhere to clear and purposeful naming, following the pattern of action-focused verbs.
-- **Modular Code**: Ensures each component is self-contained and purpose-driven, maintaining a single responsibility wherever possible.
+- **XML Files**: Eight XML files define various aspects of the mod.
+  - `Designators.xml`: Contains `DesignatorDropdownGroupDef`.
+  - `Thoughts.xml`: Contains `ThoughtDef`.
+  - `TorchBase.xml`: Contains `minifiedDef`, `statDef`, and `ThingDef`.
+  - `TorchNew.xml`: Contains `ThingDef`.
 
 ## XML Integration
-
-- XML is utilized to define various properties and settings for the torches and braziers, allowing for easy customization and integration with RimWorld's modding environment.
-- Configuration files include definitions for new objects, mood buffs, and integration triggers with other DLCs and mods.
+The mod uses XML to define various elements such as designs, thoughts, and torch definitions. Each XML file plays a crucial role in defining the properties and behaviors of the mod's features.
 
 ## Harmony Patching
-
-- Harmony is employed to apply patches that extend or modify the behavior of the base game, ensuring compatibility with other mods and enhancing functionality.
-- Patches focus on adding new behaviors when specific conditions, such as the presence of a certain mod, are met.
+Harmony patching is not explicitly mentioned in the provided summary, but it is a common practice in RimWorld modding. Harmony allows for modifying existing game code without altering the original files, enabling the integration of new features and behaviors seamlessly.
 
 ## Suggestions for Copilot
+To enhance the modding experience with GitHub Copilot, here are some suggestions:
 
-1. **Class and Method Complementation**: When generating code, ensure consistency with existing class and method patterns. Leverage action verbs for methods and nouns for classes.
-2. **XML Snippets**: Provide examples or skeletons for XML definitions used to integrate or modify existing game features.
-3. **Patch Modularity**: Suggest maintaining a separation of concern by modularizing Harmony patches, ensuring each patch targets a specific aspect of the game.
-4. **Error Handling Code**: Recommend implementing try-catch blocks where applicable, especially in areas interacting directly with interfaces or complex integrations.
-5. **Descriptive Comments**: Encourage inline comments that describe the purpose and functionality of complex code blocks to enhance readability and maintainability.
+1. **XML Definition Templates**: Create templates for common XML definitions such as `ThingDef`, `DesignatorDropdownGroupDef`, and `ThoughtDef` to help with quick setup and error reduction.
 
-By adhering to the above guidelines, GitHub Copilot will be more effective in aiding the development and expansion of the Torches and Braziers mod for RimWorld, ensuring smooth integration with various DLCs and popular mods.
+2. **C# Class Templates**: Develop templates for C# classes like `CompSanguophageMeetingFire` and `CompProperties_SanguophageMeetingFire` to ensure consistency and efficiency in coding.
+
+3. **Integration Snippets**: Provide snippets for integrating with other mods (e.g., Vanilla Expanded Framework, Vanilla Factions Expanded - Empire) to assist with mod compatibility and functionality.
+
+4. **Debugging and Error Handling**: Include snippets for logging and error reporting to help with debugging and maintaining the mod.
+
+5. **Documentation and Examples**: Offer documentation and examples for common tasks, such as creating new torches and braziers, to assist developers in understanding and implementing new features.
+
+By following these guidelines, Copilot can be a valuable tool for modding in RimWorld, enhancing productivity and reducing errors.
+
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
+
+
+## Hard rules (must follow)
+- Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
+- Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
+

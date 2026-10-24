@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount"]/things/li[text() = "Brazier"]</xpath>
+    <value>
+      <li>Brazier</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">GS_Brazier</li>
+      <li MayRequire="Sov.Nephilim">GS_Holy_Brazier</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">GS_Tox_Brazier</li>
+    </value>
+  </Operation>
+</Patch>
